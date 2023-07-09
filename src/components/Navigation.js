@@ -1,26 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 function Navigation() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <Link to="/" className="nav-link">Home</Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/about" className="nav-link">About</Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/projects" className="nav-link">Projects</Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/contact" className="nav-link">Contact</Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/resume" className="nav-link">Resume</Link>
-      </li>
-    </ul>
+    <Dropdown style={{ float: 'right', paddingRight: '40px' }}>
+      <Dropdown.Toggle variant="primary" id="dropdownMenuButton">
+        Navigation
+      </Dropdown.Toggle>
+      <Dropdown.Menu>
+        <Dropdown.Item as={Link} to="/">Home</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/about">About</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/projects">Projects</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/contact">Contact</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/resume">Resume</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
   );
 }
 
 export default Navigation;
+
