@@ -1,20 +1,27 @@
 import React from 'react';
 import html2pdf from 'html2pdf.js';
 
-function Resume() {
-  const handleDownload = () => {
-    const element = document.getElementById('resume-content'); // Get the HTML element to be converted
+class Resume extends React.Component {
+  constructor(props) {
+    super(props);
+    this.resumeRef = React.createRef();
+  }
+
+  handleDownload = () => {
+    const element = this.resumeRef.current; // Get the HTML element to be converted
 
     html2pdf().from(element).save(); // Generate and save the PDF
   };
+
+  render() {
 
   return (
     <div class = 'bodyheaders'>
       <h1>Resume</h1>
 
-      <button class = 'pdfbutton' onClick={handleDownload}>Download PDF</button>
+      <button class = 'pdfbutton' onClick={this.handleDownload}>Download PDF</button>
 
-      <div>
+      <div ref={this.resumeRef}>
       <section style={{fontFamily: 'Josefin Sans, sans-serif'}}>
 
             <p>Adam Johnson</p>
@@ -83,5 +90,5 @@ function Resume() {
     </div>
   );
 }
-
+}
 export default Resume;

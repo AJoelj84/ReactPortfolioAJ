@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import './components/styling/style.css';
+import './components/assets/styling/style.css';
 import App from './App';
 
 
