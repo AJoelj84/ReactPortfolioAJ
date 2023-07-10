@@ -105,10 +105,39 @@
   .input-group {
     margin-bottom: 1rem;
     font-weight: bolder;
-    
+
   }
   
   button[type='submit'] {
     margin-top: 1rem;
   }
   
+  .footer {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .social-links :hover {
+    margin-right: 10px;
+    color: purple;
+    text-decoration: none;
+  }
+
+  .footlink {
+    pointer-events: none;
+    color: black;
+    padding-right: 20px;
+  }

@@ -89,16 +89,3 @@ function Contact() {
 }
 
 export default Contact;
-
-{/* <section>
-<p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
-  <a className='contact-link' href='mailto:ajoelj84@gmail.com'>
-    Email
-  </a>
-</p>
-<p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
-  <a className='contact-link' href='https://github.com/AJoelj84'>
-    GitHub
-  </a>
-</p>
-</section> */}

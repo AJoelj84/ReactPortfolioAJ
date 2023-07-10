@@ -8,6 +8,7 @@ import About from './components/pages/About'
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
+import Footer from './components/pages/Footer';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
-      
+      <Footer/>
       </div>
       </div>
     </Router>
