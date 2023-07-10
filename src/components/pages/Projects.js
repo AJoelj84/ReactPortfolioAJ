@@ -16,15 +16,17 @@ function Projects() {
 
   <div class="card-container row row-cols-1 row-cols-sm-2 g-3">
     <div class="col">
-      <a href="https://only-cheese.herokuapp.com/" alt="Group Project 2" style={{ textDecoration: 'none' }}>
+    <a href="https://only-cheese.herokuapp.com/" alt="Group Project 2" style={{ textDecoration: 'none' }}>
         <div class="card">
           <img src={Onlycheese} class="card-img-top" alt="card-grid-image"/>
           <div class="card-body">
           <h5 class="card-title">Group Project #2</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">In this Project I designed our wireframe and then helped lay the early framework of the site. 
+                               After that I built a full separate server for a socket.io chat room integrated into our site.  
+                               Finally I helped setup our Users Profile Card Pages. </p>
         </div>
     </div>
-      </a>
+    </a>
   </div>
 
 
@@ -34,7 +36,9 @@ function Projects() {
       <img src={GroupProject1}  class="card-img-top" alt="card-grid-image"/>
       <div class="card-body">
         <h5 class="card-title">Group Project #1</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">In the first Group Project of my class, we built a site that uses the users entered location to give them
+                             the days weather forecast, and a List of the Local Biking Trails.  In this Project I assisted with the styling choices
+                             and setting up the API calls.</p>
       </div>
     </div>
   </a>
@@ -47,7 +51,7 @@ function Projects() {
       <img src={TechQik} class="card-img-top" alt="card-grid-image"/>
       <div class="card-body">
         <h5 class="card-title">TechQik TechBlog Project</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">In this Tech Blog Model View Controller Project I built my take on a Tech Blog, TechQik</p>
       </div>
     </div>
     </a>
@@ -60,7 +64,8 @@ function Projects() {
       <img src={WeatherDash} class="card-img-top" alt="card-grid-image"/>
       <div class="card-body">
         <h5 class="card-title">Weather Dashboard Project</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">In this Weather Dashboard Project, I used API calls to display to the User the current Days forecast and combined with DayJS
+                             present the User with a Five Day Forecast as well.</p>
       </div>
     </div>
   </a>  
