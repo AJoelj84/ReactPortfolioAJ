@@ -49,6 +49,7 @@ function Contact() {
               name='name'
               value={name}
               onChange={(e) => setName(e.target.value)}
+              style={{ fontSize: '1.2rem', padding: '0.5rem', width: '100%', minHeight: '50px' }}
             />
           </div>
 
@@ -60,6 +61,7 @@ function Contact() {
               name='email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              style={{ fontSize: '1.2rem', padding: '0.5rem', width: '100%', minHeight: '50px' }}
             />
           </div>
 
@@ -70,6 +72,7 @@ function Contact() {
               name='message'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              style={{ fontSize: '1.5rem', padding: '0.5rem', width: '100%', minHeight: '200px' }}
             ></textarea>
           </div>
 
