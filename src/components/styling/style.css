@@ -1,0 +1,55 @@
+.background {
+    background-color: rgb(2, 98, 194);
+    
+}
+
+.app-wrapper {
+    background-color: rgb(2, 98, 194);
+    min-height: 100vh;
+  }
+
+.dropdown .btn-primary {
+    background-color: rgb(168, 168, 168);
+    color: black;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.mainheader {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 60px;
+}
+
+.bodyheaders {
+    text-align: center;
+}
+
+.pdfbutton {
+    margin: 20px;
+    padding: 8px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.bodytext {
+    text-align: left;
+    padding: 50px;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+}
+
+.links {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.links .contact-link {
+    color: rgb(2, 2, 2); /* Change the color of the links */
+  }
+  
+.links .contact-link:hover {
+    color: rgb(212, 0, 255); /* Change the color of the links on hover */
+  }

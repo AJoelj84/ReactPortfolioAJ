@@ -10,11 +10,13 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 
 function App() {
+
   return (
     <Router>
-      <div>
-        <h1>Adam Johnson's Portfolio</h1>
-        <Navigation />
+      <div className="app-wrapper">
+      <div class = 'background'>
+        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'mainheader'>Adam Johnson's Portfolio <Navigation /></h1>
+
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
@@ -22,6 +24,8 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/resume" element={<Resume/>} />
         </Routes>
+      
+      </div>
       </div>
     </Router>
   );

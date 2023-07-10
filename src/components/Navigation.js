@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
+import './styling/fonts.css';
 
 function Navigation() {
   return (
-    <Dropdown style={{ float: 'right', paddingRight: '40px' }}>
+    <Dropdown class= 'dropdown' style={{ float: 'right', paddingRight: '40px' }}>
       <Dropdown.Toggle variant="primary" id="dropdownMenuButton">
         Navigation
       </Dropdown.Toggle>

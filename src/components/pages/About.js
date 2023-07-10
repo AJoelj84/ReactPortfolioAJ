@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <div>
-      <h1>About Me</h1>
-      <p>
+      <h1 class = 'bodyheaders'>About Me</h1>
+      <section style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'bodytext'>
           Hello! My name is Adam Johnson. I live in the beautiful Smoky Mountains of North Carolina 
           with my wife and two wild little boys. I have professional experience in multiple industries- 
           the most experience being in Automotive and Locomotive Engineering. I enjoy spending time with my family, 
@@ -14,7 +14,7 @@ function About() {
 
           Please feel free to review my portfolio and to reach out to me if you have any questions or would like to discuss a project. 
           I look forward to working with you!
-      </p>
+      </section>
     </div>
   );
 }
