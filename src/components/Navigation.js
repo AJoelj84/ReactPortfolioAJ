@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
-import './styling/fonts.css';
+import './assets/styling/fonts.css';
 
 function Navigation() {
   return (
@@ -11,7 +11,7 @@ function Navigation() {
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/">Home</Dropdown.Item>
-        <Dropdown.Item as={Link} to="/about">About</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/about">About Me</Dropdown.Item>
         <Dropdown.Item as={Link} to="/projects">Projects</Dropdown.Item>
         <Dropdown.Item as={Link} to="/contact">Contact</Dropdown.Item>
         <Dropdown.Item as={Link} to="/resume">Resume</Dropdown.Item>
