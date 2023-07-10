@@ -34,26 +34,11 @@ function Contact() {
   };
 
   return (
-    <div className="contact-container">
-      <h1 className='bodyheaders' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-        Contact Me
-      </h1>
+    <div>
+      <h1 className='bodyheaders' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>Contact Me</h1>
 
-      <section>
-        <p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
-          <a className='contact-link' href='mailto:ajoelj84@gmail.com'>
-            Email
-          </a>
-        </p>
-        <p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
-          <a className='contact-link' href='https://github.com/AJoelj84'>
-            GitHub
-          </a>
-        </p>
-      </section>
-
-      <div className="form-container">
-        {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
+    <div className="form-container">
+        
 
         <form onSubmit={handleSubmit}>
           <div className="input-group">
@@ -90,12 +75,27 @@ function Contact() {
 
           <button type='submit'>Send</button>
         </form>
-
+        {successMessage && <p style={{ color: 'black', fontSize: '2rem' }}>{successMessage}</p>}
         {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
       </div>
     </div>
+
+
+
   );
 }
 
 export default Contact;
 
+{/* <section>
+<p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
+  <a className='contact-link' href='mailto:ajoelj84@gmail.com'>
+    Email
+  </a>
+</p>
+<p style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='links'>
+  <a className='contact-link' href='https://github.com/AJoelj84'>
+    GitHub
+  </a>
+</p>
+</section> */}

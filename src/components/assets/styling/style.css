@@ -104,6 +104,8 @@
   
   .input-group {
     margin-bottom: 1rem;
+    font-weight: bolder;
+    
   }
   
   button[type='submit'] {
