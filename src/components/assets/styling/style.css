@@ -1,3 +1,13 @@
+.welcome{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  justify-content: center;
+  font-size:xx-large;
+  color: black;
+  
+}
+
 .background {
     background-color: rgb(2, 98, 194);
     

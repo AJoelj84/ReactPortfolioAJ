@@ -3,18 +3,25 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <h1 class = 'bodyheaders'>Home Page</h1>
-      <p class = 'bodyheaders'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      <h1 class = 'bodyheaders'></h1>
+      <p style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'welcome'>
+        Welcome to my Portfolio<br></br>
+        Here you will find Sections<br></br>
+        <br></br> 
+        About Me <br></br>
+        So you can get to know who I am<br></br> 
+        what I enjoy, and a little background experience information.<br></br> 
+        <br></br> 
+        Portfolio<br></br> 
+        What you are here to see, examples of my coding and how I implement it.<br></br> 
+        <br></br> 
+        Contact<br></br> 
+        Send me an Email Directly with any questions or comments.<br></br> 
+        <br></br> 
+        Resume<br></br> 
+        My Work History and List of Proficencies.<br></br> 
+        Included in a Convinent PDF Download too!
+
       </p>
     </div>
   );
