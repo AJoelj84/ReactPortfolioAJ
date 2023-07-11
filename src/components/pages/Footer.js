@@ -7,8 +7,9 @@ function Footer() {
         <div className="app-wrapper">
           <div className="social-links">
             <p className = 'footlink'>More Links </p>
-            <a href="mailto:your-email@example.com">Email</a>
+            <a href="mailto:ajoelj84@gmail.com">Email</a>
             <a href="https://github.com/your-github-profile">GitHub</a>
+            <a href="https://www.linkedin.com/in/adam-undefined-569184283/">LinkedIn</a>
           </div>
         </div>
       </div>
