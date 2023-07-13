@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ajoelj84.github.io/ReactPortfolioAJ/",
+  "homepage": "https://ajoelj84.github.io/ReactPortfolioAJ",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.0",
@@ -19,15 +19,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "concurrent": "concurrently \"react-scripts start\" \"react-scripts build\""
+    "eject": "react-scripts eject"
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -47,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.0",
     "gh-pages": "^5.0.0"
   }
 }
