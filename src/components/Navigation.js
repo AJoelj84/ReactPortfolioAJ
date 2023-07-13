@@ -10,8 +10,7 @@ function Navigation() {
         Navigation
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item as={Link} to="/">Home</Dropdown.Item>
-        <Dropdown.Item as={Link} to="/about">About Me</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/">About Me</Dropdown.Item>
         <Dropdown.Item as={Link} to="/projects">Portfolio</Dropdown.Item>
         <Dropdown.Item as={Link} to="/contact">Contact</Dropdown.Item>
         <Dropdown.Item as={Link} to="/resume">Resume</Dropdown.Item>

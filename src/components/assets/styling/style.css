@@ -151,3 +151,13 @@
     color: black;
     padding-right: 20px;
   }
+
+  .resumeheader{
+    font-size: 30px;
+    
+  }
+
+  .resumesecond{
+    font-size: 30px;
+    text-decoration: underline;
+  }
