@@ -22,10 +22,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-   "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
-    "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "concurrent": "concurrently \"npm run start\" \"npm run your-other-script\""
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^8.2.0",
     "gh-pages": "^5.0.0"
   }
 }
