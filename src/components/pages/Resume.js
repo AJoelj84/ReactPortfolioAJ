@@ -35,7 +35,7 @@ class Resume extends React.Component {
 
                     <p class='resumesecond'>Coding Proficencies</p>
                         <br></br>
-                        <p>Full Stack Development</p>
+                        <p>MERN Fullstack Development<br></br><br></br>HTML, CSS, JavaScript, jQuery, Bootstrap, PWAs, React, <br></br><br></br>Heroku Deployment, Git, MySQL, MongoDB, Apollo and GraphQL, Node, Express</p>
                     <p class='resumesecond'>Employment History</p>
                         <br></br>
 
