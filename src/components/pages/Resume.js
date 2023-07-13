@@ -1,5 +1,5 @@
 import React from 'react';
-import html2pdf from 'html2pdf.js';
+import html2pdf from 'html2pdf.js/dist/html2pdf.min';
 
 class Resume extends React.Component {
   constructor(props) {
@@ -87,6 +87,7 @@ class Resume extends React.Component {
         </section>
       </div>
     </div>
+    
   );
 }
 }
