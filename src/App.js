@@ -10,6 +10,12 @@ import Footer from './components/pages/Footer';
 
 function App() {
 
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate('/');
+  }, [navigate]);
+
+
   return (
     <Router>
       <div className="app-wrapper">
