@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
 import About from './components/pages/About'
@@ -9,13 +9,6 @@ import Resume from './components/pages/Resume';
 import Footer from './components/pages/Footer';
 
 function App() {
-
-  const navigate = useNavigate();
-
-  // Programmatically navigate to the "About" route when the component mounts
-  useEffect(() => {
-    navigate('/');
-  }, [navigate]);
 
   return (
     <Router>
