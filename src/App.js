@@ -10,6 +10,13 @@ import Footer from './components/pages/Footer';
 
 function App() {
 
+  const navigate = useNavigate();
+
+  // Programmatically navigate to the "About" route when the component mounts
+  useEffect(() => {
+    navigate('/');
+  }, [navigate]);
+
   return (
     <Router>
       <div className="app-wrapper">
