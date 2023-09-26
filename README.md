@@ -14,7 +14,7 @@ Simply Open The Deployed Page Link Below
 
 [GitHubRepository](https://github.com/AJoelj84/ReactPortfolioAJ)
 
-[DeployedPage]()
+[DeployedPage](https://ajoelj84.github.io/)
 
 # Contact
 

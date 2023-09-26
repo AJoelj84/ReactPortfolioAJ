@@ -13,7 +13,7 @@ function About() {
           <div className="col-md-6 order-md-1">
             <div style={{ marginLeft: '80px', marginRight: 'auto' }}>
               <p>
-                Hello! My name is Adam Johnson. I live in the beautiful Smoky Mountains of North Carolina 
+                Hello! My name is Adam Johnson. I live in the beautiful Smokey Mountains of North Carolina 
                 with my wife and two wild little boys. I have professional experience in multiple industries 
                 the most experience being an Automotive Mechanic 10 years and Locomotive Engineering for the past 8 years.<br></br>
                 <br></br> 
