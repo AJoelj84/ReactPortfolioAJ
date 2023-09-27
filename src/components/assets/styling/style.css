@@ -46,8 +46,8 @@
 
 .bodytext {
     text-align: left;
-    padding: 50px;
-    font-size: 40px;
+    padding: 15px;
+    font-size: 30px;
     color:rgb(0, 0, 0);
 }
 
@@ -160,4 +160,12 @@
   .resumesecond{
     font-size: 30px;
     text-decoration: underline;
+  }
+
+  .image{
+    padding-left: 300px;
+  }
+
+  .imagetop{
+    padding-top: 10rem;
   }
