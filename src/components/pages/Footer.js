@@ -8,8 +8,8 @@ function Footer() {
           <div className="social-links">
             <p className = 'footlink'>More Links </p>
             <a href="mailto:ajoelj84@gmail.com">Email</a>
-            <a href="https://github.com/your-github-profile">GitHub</a>
-            <a href="https://www.linkedin.com/in/adam-undefined-569184283/">LinkedIn</a>
+            <a href="https://github.com/AJoelj84">GitHub</a>
+            <a href="www.linkedin.com/in/adam-johnson-569184283">LinkedIn</a>
           </div>
         </div>
       </div>
