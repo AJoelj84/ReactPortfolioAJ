@@ -154,12 +154,17 @@
 
   .resumeheader{
     font-size: 30px;
-    
+    padding-left: 30px;
   }
 
   .resumesecond{
     font-size: 30px;
     text-decoration: underline;
+    text-align: center;
+    color: black;
+  }
+  .resumesecond:hover{
+    color: purple;
   }
 
   .image{
@@ -167,5 +172,5 @@
   }
 
   .imagetop{
-    padding-top: 10rem;
+    padding-top: 4rem;
   }

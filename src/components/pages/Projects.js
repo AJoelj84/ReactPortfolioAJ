@@ -8,7 +8,7 @@ import WeatherDash from '../assets/images/weatherdash.jpg';
 
 function Projects() {
   return (
-    <div className="bodyheaders">
+    <div className="bodyheaders" style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
       <section id="Projects">
         <h1>Portfolio</h1>
 
