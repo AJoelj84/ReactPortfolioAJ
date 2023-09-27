@@ -9,7 +9,7 @@ function Footer() {
             <p className = 'footlink'>More Links </p>
             <a href="mailto:ajoelj84@gmail.com">Email</a>
             <a href="https://github.com/AJoelj84">GitHub</a>
-            <a href="www.linkedin.com/in/adam-johnson-569184283">LinkedIn</a>
+            <a href="https://linkedin.com/in/adam-johnson-569184283">LinkedIn</a>
           </div>
         </div>
       </div>
