@@ -1,4 +1,5 @@
 import React from 'react';
+import credlyImage from '../assets/images/credly.png';
 
 function Footer() {
   return (
@@ -11,6 +12,9 @@ function Footer() {
             <a href="https://github.com/AJoelj84">GitHub</a>
             <a href="https://linkedin.com/in/adam-johnson-569184283">LinkedIn</a>
           </div>
+              <div className="credly-image">
+                <img src={credlyImage} alt="UNC Credly logo" />
+              </div>
         </div>
       </div>
     </footer>
