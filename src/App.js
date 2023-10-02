@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="app-wrapper">
       <div class = 'background'>
-        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'mainheader'>Adam Johnson's Portfolio <Navigation /></h1>
+        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'backgroundheader'>Adam Johnson's Portfolio <Navigation /></h1>
 
         <Routes>
           <Route path="/" element={<About/>} exact />

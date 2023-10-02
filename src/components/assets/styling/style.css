@@ -9,17 +9,25 @@
 }
 
 .background {
-    background-color: rgb(2, 98, 194);
-    
+    background-color: rgb(255, 255, 255);     
+}
+
+.backgroundheader{
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  font-size: 60px;
+  color:white;
 }
 
 .app-wrapper {
-    background-color: rgb(2, 98, 194);
-    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    min-height: 20vh;
   }
 
 .dropdown .btn-primary {
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 20px;
     font-size: 30px;
@@ -33,6 +41,7 @@
 }
 
 .bodyheaders {
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -62,7 +71,7 @@
   }
   
 .links .contact-link:hover {
-    color: rgb(212, 0, 255); /* Change the color of the links on hover */
+    color: rgb(0, 35, 190); /* Change the color of the links on hover */
   }
 
 
@@ -126,12 +135,13 @@
     padding-top: 80px;
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   .social-links {
     display: flex;
     justify-content: center;
+    color: white;
   }
   
   .social-links a {
@@ -142,7 +152,7 @@
 
   .social-links :hover {
     margin-right: 10px;
-    color: purple;
+    color: rgb(18, 2, 248);
     text-decoration: none;
   }
 
@@ -164,7 +174,7 @@
     color: black;
   }
   .resumesecond:hover{
-    color: purple;
+    color: rgb(18, 2, 248);
   }
 
   .image{
@@ -173,4 +183,9 @@
 
   .imagetop{
     padding-top: 4rem;
+  }
+
+  .cardborder{
+    border: 5px solid;
+    border-radius: 20px;
   }
