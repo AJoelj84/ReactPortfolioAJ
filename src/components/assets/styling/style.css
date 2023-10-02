@@ -194,6 +194,15 @@
     width: 100%;
   }
 
+  .resumepic{
+    display: none;
+  }
+  
+
+  .mobileprofile{
+    display: none;
+  }
+
   @media (max-width: 768px){
     .backgroundheader{
       padding-top: 20px;
@@ -233,4 +242,19 @@
         margin-left: -30px;
       }
 
+      .resume{
+        display: none;
+      }
+
+      .resumepic{
+        display: block;
+        max-width: 350px;
+      }
+
+      .mobileprofile{
+        display: block;
+        max-width: 200px;
+        padding-left: 40px;
+        margin-left: 20px;
+      }
   }

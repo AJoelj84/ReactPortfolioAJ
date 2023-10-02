@@ -30,6 +30,7 @@ function About() {
                 Please feel free to review my portfolio and reach out to me if you have any questions or would like to discuss a project. 
                 I look forward to working with you!
               </p>
+              <img src={ProfilePic} alt="Adam Johnson Profile Picture" className="mobileprofile" style={{ width: '500px', height: 'auto' }} />
             </div>
           </div>
         </div>
