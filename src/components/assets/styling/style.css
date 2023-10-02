@@ -13,7 +13,7 @@
 }
 
 .backgroundheader{
-  background-color: black;
+  background: linear-gradient(to right, #000000,#343535,#686768 );
   padding-top: 60px;
   padding-bottom: 40px;
   padding-left: 30px;
@@ -62,11 +62,11 @@
 }
 
 .links .contact-link {
-    color: rgb(2, 2, 2); /* Change the color of the links */
+    color: rgb(2, 2, 2); 
   }
   
 .links .contact-link:hover {
-    color: rgb(0, 35, 190); /* Change the color of the links on hover */
+    color: rgb(0, 35, 190);
   }
 
 
@@ -190,6 +190,10 @@
     display: none;
   }
 
+  .profilepic{
+    width: 100%;
+  }
+
   @media (max-width: 768px){
     .backgroundheader{
       padding-top: 20px;
@@ -215,6 +219,18 @@
       .dropdown .dropdown-toggle{
         font-size: 18px;
         
+      }
+
+      .profilepic{
+        display:none;
+      }
+
+      .bodytext{
+        font-size: 14px;
+        text-align: center;
+        padding: 0px;
+        margin-right: 40px;
+        margin-left: -30px;
       }
 
   }
