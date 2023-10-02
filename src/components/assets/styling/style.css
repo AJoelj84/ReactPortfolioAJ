@@ -21,11 +21,6 @@
   color:white;
 }
 
-.app-wrapper {
-    background-color: rgb(255, 255, 255);
-    min-height: 20vh;
-  }
-
 .dropdown .btn-primary {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -188,4 +183,29 @@
   .cardborder{
     border: 5px solid;
     border-radius: 20px;
+  }
+
+
+  .aftermedia{
+    display: none;
+  }
+
+  @media (max-width: 768px){
+    .backgroundheader{
+      padding-top: 20px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      font-size: 20px;
+    }
+
+    .aftermedia{
+      display: block;
+    }
+
+    .dropdown .btn-primary {
+      border-radius: 10px;
+      font-size: 10px;
+      margin-top: -40px;
+      
+  }
   }

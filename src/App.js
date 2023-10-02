@@ -12,18 +12,15 @@ function App() {
 
   return (
     <Router>
-      <div className="app-wrapper">
       <div class = 'background'>
-        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'backgroundheader'>Adam Johnson's Portfolio <Navigation /></h1>
-
-        <Routes>
-          <Route path="/" element={<About/>} exact />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/resume" element={<Resume/>} />
-        </Routes>
-      <Footer/>
-      </div>
+        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'backgroundheader'>Adam Johnson's<br className='aftermedia'></br> Portfolio <Navigation /></h1>
+          <Routes>
+            <Route path="/" element={<About/>} exact />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/resume" element={<Resume/>} />
+          </Routes>
+        <Footer/>
       </div>
     </Router>
   );
