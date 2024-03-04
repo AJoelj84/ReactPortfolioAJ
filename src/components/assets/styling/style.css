@@ -54,6 +54,20 @@
     font-size: 30px;
     color:rgb(0, 0, 0);
 }
+.link {
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #ddd;
+  border-radius: 20px;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.link:hover {
+  box-shadow: inset 175px 0 0 0 #999999;
+  color: rgb(0, 0, 0);
+}
+
 
 .links {
     padding-top: 50px;
