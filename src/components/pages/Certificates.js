@@ -7,7 +7,7 @@ import Bootcamp from '../assets/images/UNCBootcamp.jpg';
 function Certificates(){
     return(
         <section>
-        <h1 className='certheader'>Professional Certificates</h1>
+        <h1 className='bodyheaders'>Professional Certificates</h1>
 
         <div className="card-container row row-cols-1 row-cols-sm-2 g-3">
 

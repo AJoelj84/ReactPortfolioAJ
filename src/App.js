@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div class = 'background'>
-        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'backgroundheader'>Adam Johnson's<br className='aftermedia'></br> Portfolio <Navigation /></h1>
+        <h1 style={{fontFamily: 'Josefin Sans, sans-serif'}} class = 'backgroundheader'>Adam Johnson's Portfolio <Navigation /></h1>
           <Routes>
             <Route path="/" element={<Projects/>} exact />
             <Route path="/about" element={<About/>} />

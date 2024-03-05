@@ -21,7 +21,8 @@ function Navigation() {
 
 
 return (
-  <div className="navigation" style={{ float: 'right', paddingRight: '40px' }}>
+  <div className='navigation'>
+    
     <Link to="/projects" className='link' >Portfolio</Link>
     <Link to="/certificates" className='link' >Certificates</Link>
     <Link to="/about" className='link' >About Me</Link>

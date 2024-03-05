@@ -21,14 +21,6 @@
   color:white;
 }
 
-.dropdown .btn-primary {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-radius: 20px;
-    font-size: 30px;
-    margin-top: -30px;
-}
-
 .mainheader {
     padding-top: 60px;
     padding-left: 30px;
@@ -152,17 +144,27 @@
     justify-content: center;
     color: white;
   }
+
+  .socialbackground{
+    background: linear-gradient(to right, #000000,#343535,#686768 );
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
   
   .social-links a {
     margin-right: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
   }
 
   .social-links :hover {
-    margin-right: 10px;
-    color: rgb(18, 2, 248);
-    text-decoration: none;
+    box-shadow: inset 175px 0 0 0 #999999;
+    color: rgb(0, 0, 0);
   }
 
   .footlink {
@@ -224,70 +226,73 @@
     margin-top: 30px;
   }
 
-  .certheader{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 50px;
-  }
-
-  
 
   .mobileprofile{
     display: none;
   }
 
+  .navigation{
+    float: right;
+    padding-right: 40px;
+  }
+
   @media (max-width: 768px){
     .backgroundheader{
       padding-top: 20px;
-      padding-bottom: 10px;
+      padding-bottom: 35px;
       padding-left: 15px;
       font-size: 20px;
+      text-align: center;
     }
 
-    .aftermedia{
-      display: block;
-    }
-
-    .dropdown .btn-primary {
-      border-radius: 10px;
-      font-size: 10px;
-      margin-top: -40px; 
-  }
-
-     .social-links {
+    .social-links {
       font-size: 16px;
-  }
+    }
 
-      .dropdown .dropdown-toggle{
-        font-size: 18px;
-        
-      }
 
-      .profilepic{
-        display:none;
-      }
+    .profilepic{
+      display:none;
+    }
 
-      .bodytext{
-        font-size: 14px;
-        text-align: center;
-        padding: 0px;
-        margin-right: 40px;
-        margin-left: -30px;
-      }
+    .bodytext{
+      font-size: 14px;
+      text-align: center;
+      padding: 0px;
+      margin-right: 40px;
+      margin-left: -30px;
+    }
 
-      .resume{
-        display: none;
-      }
+    .resume{
+      display: none;
+    }
 
-      .resumepic{
-        display: block;
-        max-width: 350px;
-      }
+    .resumepic{
+      display: block;
+      max-width: 350px;
+    }
 
-      .mobileprofile{
-        display: block;
-        max-width: 200px;
-        padding-left: 40px;
-        margin-left: 20pxgi;
-      }
+    .mobileprofile{
+      display: block;
+      max-width: 200px;
+      padding-left: 40px;
+      margin-left: 20pxgi;
+    }
+
+    .link{
+      font-size: 10px;
+      margin-right:3px;
+      border-radius: none;
+      transition: none;
+    }
+
+    .link:hover {
+      box-shadow: inset 175px 0 0 0 #999999;
+      color: rgb(0, 0, 0);
+    }
+
+    /* .navigation{
+      background: linear-gradient(to right, #000000,#343535,#686768 );
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+    } */
   }
