@@ -23,8 +23,8 @@ function Navigation() {
 return (
   <div className="navigation" style={{ float: 'right', paddingRight: '40px' }}>
     <Link to="/projects" className='link' >Portfolio</Link>
-    <Link to="/about" className='link' >About Me</Link>
     <Link to="/certificates" className='link' >Certificates</Link>
+    <Link to="/about" className='link' >About Me</Link>
     <Link to="/resume" className='link' >Resume</Link>
     <Link to="/contact" className='link' >Contact</Link>
     
