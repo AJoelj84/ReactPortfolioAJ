@@ -13,7 +13,7 @@ function About() {
           <div className="col-md-6 order-md-1">
             <div style={{ marginLeft: '80px', marginRight: 'auto' }}>
               <p>
-                Hello! My name is Adam Johnson. I live in the beautiful Smokey Mountains of North Carolina 
+                Hello! My name is Adam Johnson. I live in Rochester New York 
                 with my wife and two wild little boys. I have professional experience in multiple industries 
                 the most experience being an Automotive Mechanic 10 years and Locomotive Engineering for the past 8 years.<br></br>
                 <br></br> 
@@ -21,9 +21,9 @@ function About() {
                 a learned skill and using my hands.
                 <br></br>
                 <br></br>
-                In the past I have dabbled with HTML, CSS, Java, and C++ taking classes in Highschool and Early parts of College which led me to  
-                 recently decide to pursue new opportunities with the UNC Coding Boot Camp. 
-                I have a love for computers and an understanding of different levels of industry that spans at least twenty years. 
+                In the past I have dabbled with HTML, CSS, Java, and C++ taking classes in Highschool and Early parts of College which led me to 
+                attend the UNC Coding Boot Camp in 2022, and pursue certificates in other related fields on going. 
+                I have a love for computers and an understanding of different levels of industry that spans more than twenty years. 
               </p>
               <p>
               <br></br>
