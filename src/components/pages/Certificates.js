@@ -13,28 +13,28 @@ function Certificates(){
 
         <div className="col">
               <div className="card certificate">
-                  <img src={Bootcamp} className="card-img-top" alt="card-grid-image" />
+                  <img src={Bootcamp} className="card-img-top" alt="card-grid" />
               </div> 
           </div>
 
 
           <div className="col">
               <div className="card codiocertificate">
-                  <img src={Codio} className="card-img-top" alt="card-grid-image" />
+                  <img src={Codio} className="card-img-top" alt="card-grid" />
               </div> 
           </div>
 
 
           <div className="col">
               <div className="card certificate">
-                  <img src={DataAnalysis} className="card-img-top" alt="card-grid-image" />
+                  <img src={DataAnalysis} className="card-img-top" alt="card-grid" />
               </div> 
           </div>
 
 
           <div className="col">
               <div className="card certificate">
-                  <img src={RITtableau} className="card-img-top" alt="card-grid-image" />
+                  <img src={RITtableau} className="card-img-top" alt="card-grid" />
               </div> 
           </div>
 

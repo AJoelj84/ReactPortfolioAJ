@@ -8,7 +8,7 @@ function About() {
       <section style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='bodytext'>
         <div className="row">
           <div className="col-md-6 order-md-2 text-center">
-            <img src={ProfilePic} alt="Adam Johnson Profile Picture" className="profilepic" style={{ width: '500px', height: 'auto' }} />
+            <img src={ProfilePic} alt="Adam Johnson Profile" className="profilepic" style={{ width: '500px', height: 'auto' }} />
           </div>
           <div className="col-md-6 order-md-1">
             <div style={{ marginLeft: '80px', marginRight: 'auto' }}>
@@ -30,7 +30,7 @@ function About() {
                 Please feel free to review my portfolio and reach out to me if you have any questions or would like to discuss a project. 
                 I look forward to working with you!
               </p>
-              <img src={ProfilePic} alt="Adam Johnson Profile Picture" className="mobileprofile" style={{ width: '500px', height: 'auto' }} />
+              <img src={ProfilePic} alt="Adam Johnson Profile" className="mobileprofile" style={{ width: '500px', height: 'auto' }} />
             </div>
           </div>
         </div>
