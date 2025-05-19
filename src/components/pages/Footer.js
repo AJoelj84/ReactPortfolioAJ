@@ -1,5 +1,4 @@
 import React from 'react';
-import credlyImage from '../assets/images/credly.png';
 
 function Footer() {
   return (

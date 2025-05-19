@@ -20,7 +20,7 @@ function Projects() {
         <div className="col">
             <div className="card cardborder">
               <a href="https://github.com/AJoelj84/ReactPortfolioAJ" alt="Portfolio Link" style={{ textDecoration: 'none' }}>
-                <img src={Portfolio} className="card-img-top" alt="card-grid-image" />
+                <img src={Portfolio} className="card-img-top" alt="card-grid" />
               </a>
                 <div className="card-body">
                   <h5 className="card-title"><br></br>Portfolio Code<br></br><br></br></h5>
@@ -53,7 +53,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://only-cheese.herokuapp.com/" alt="Group Project 2" style={{ textDecoration: 'none' }} className="d-block">
-                  <img src={Onlycheese} className="card-img-top" alt="card-grid-image" />
+                  <img src={Onlycheese} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title"><a href="https://only-cheese.herokuapp.com/"></a>Only Cheese UNC Group Project #2</h5>
@@ -71,7 +71,7 @@ function Projects() {
           <div className="col">
             <div className="card cardborder">
               <a href="https://brandon5667.github.io/peak-fitness/" alt="First Group Project Link" style={{ textDecoration: 'none' }}>
-                <img src={GroupProject1} className="card-img-top" alt="card-grid-image" />
+                <img src={GroupProject1} className="card-img-top" alt="card-grid" />
               </a>
                 <div className="card-body">
                   <h5 className="card-title">Peak Fitness UNC Group Project #1</h5>
@@ -87,7 +87,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://techqik-ccaa5c6abf81.herokuapp.com/" alt="Tech blog Project" style={{ textDecoration: 'none' }}>
-                  <img src={TechQik} className="card-img-top" alt="card-grid-image" />
+                  <img src={TechQik} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title">TechQik TechBlog Project</h5>
@@ -102,7 +102,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://inkedin-ef5cc989f602.herokuapp.com/" alt="InkedIn" style={{ textDecoration: 'none' }}>
-                  <img src={Inked} className="card-img-top" alt="card-grid-image" />
+                  <img src={Inked} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title">InkedIn UNC Group Project #3</h5>
@@ -118,7 +118,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://ajoelj84.github.io/Scheduler/" alt="InkedIn" style={{ textDecoration: 'none' }}>
-                  <img src={WorkDay} className="card-img-top" alt="card-grid-image" />
+                  <img src={WorkDay} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title">Work Day Scheduler</h5>
@@ -133,7 +133,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://ajoelj84-notetaker.herokuapp.com/" alt="InkedIn" style={{ textDecoration: 'none' }}>
-                  <img src={NoteTaker} className="card-img-top" alt="card-grid-image" />
+                  <img src={NoteTaker} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title">Note Taker Project</h5>
