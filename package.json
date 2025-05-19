@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ajohnsonportfolio-4b2c84f3b864.herokuapp.com",
+  "homepage": "ajohnsonportfolio.netlify.app",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.0",
