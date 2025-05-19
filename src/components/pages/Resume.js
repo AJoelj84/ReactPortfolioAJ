@@ -4,9 +4,6 @@ import ResumePic from '../assets/images/resume.jpg';
 
 
 const Resume = () => {
-  const googleDocsDirectUrl =
-    'https://docs.google.com/document/d/e/2PACX-1vQPhsNGiqls9QcJyDic73OK12Rgjuk1AS6dko26RldNYSE4uaCsq1a4rkky6j4hXUbzb7_GK4InHnS4/pub';
-
   return (
     <div className="container text-center mt-5">
       <h2 className='bodyheaders' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>My Resume</h2>

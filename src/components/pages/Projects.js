@@ -32,31 +32,13 @@ function Projects() {
               </div> 
           </div>
 
-          {/* <div className="col">
-              <div className="card cardborder">
-                <a href="" alt="Bennett Consultation" style={{ textDecoration: 'none' }} className="d-block">
-                  <img src={BennettConsul} className="card-img-top" alt="card-grid-image" />
-                </a>
-                  <div className="card-body">
-                    <h5 className="card-title"><a href="https://only-cheese.herokuapp.com/"></a>Only Cheese UNC Group Project #2</h5>
-                    <p className="card-text">
-                      My most recent project a consultation site for long time friend Doctor John Bennett.
-                      Currently still in development and is an on going project.
-
-                      Code Repository for the Main Site <a href="https://github.com/eileenmh/only-cheese">Here</a>.<br></br><br></br>
-                      Code Repository for the Chat Room <a href="https://github.com/AJoelj84/onlycheesechatserver">Here</a>.<br></br>
-                    </p>
-                  </div>
-              </div> 
-          </div> */}
-
           <div className="col">
               <div className="card cardborder">
                 <a href="https://only-cheese.herokuapp.com/" alt="Group Project 2" style={{ textDecoration: 'none' }} className="d-block">
                   <img src={Onlycheese} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
-                    <h5 className="card-title"><a href="https://only-cheese.herokuapp.com/"></a>Only Cheese UNC Group Project #2</h5>
+                    <h5 className="card-title">Only Cheese UNC Group Project #2</h5>
                     <p className="card-text">
                       In this Project, I designed our wireframe and laid the early framework of the site.<br></br>
                       As well I helped set up the Users Profile Card Pages, and the final styling of the site.<br></br>
@@ -148,7 +130,7 @@ function Projects() {
           <div className="col">
               <div className="card cardborder">
                 <a href="https://ajoelj84.github.io/WeatherDashboard/" alt="Weather Dashboard Project" style={{ textDecoration: 'none' }}>
-                  <img src={WeatherDash} className="card-img-top" alt="card-grid-image" />
+                  <img src={WeatherDash} className="card-img-top" alt="card-grid" />
                 </a>
                   <div className="card-body">
                     <h5 className="card-title">Weather Dashboard Project</h5>
